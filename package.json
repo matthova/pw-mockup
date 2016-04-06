@@ -1,0 +1,24 @@
+{
+  "name": "escher-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/node-sass/bin/node-sass --output-style compressed css/style.scss css/style.css",
+    "dev": "node_modules/node-sass/bin/node-sass --output-style compressed --watch css --output css css/style.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitlynhova/escher-landingpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaitlynhova/escher-landingpage/issues"
+  },
+  "homepage": "https://github.com/kaitlynhova/escher-landingpage#readme",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "node-sass": "^3.4.2"
+  }
+}
